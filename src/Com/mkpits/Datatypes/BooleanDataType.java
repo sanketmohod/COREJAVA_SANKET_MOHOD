@@ -1,5 +1,7 @@
 package Com.mkpits.Datatypes;
 
+import Com.mkpits.ScopeOfVariable.StaticVariable;
+
 public class BooleanDataType {
 
 	public static void main(String[] args) {
@@ -13,6 +15,7 @@ public class BooleanDataType {
 		System.out.println(isPresent);
 		System.out.println(isNotPresent);
 		System.out.println(isActive);
+
 	}
 
 }
