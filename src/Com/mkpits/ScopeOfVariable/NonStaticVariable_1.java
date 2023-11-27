@@ -29,6 +29,6 @@ public class NonStaticVariable_1 {
 		System.out.println("Return decimal value is : "+nst.Decimal_value);
 		System.out.println("Return double value is : "+nst.Double_value);
 		System.out.println("My name is : "+nst.name);
-
+        System.out.println("this all about non static variable");
 }
 }
