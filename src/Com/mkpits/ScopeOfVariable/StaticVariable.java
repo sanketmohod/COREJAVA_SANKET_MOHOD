@@ -2,7 +2,7 @@ package Com.mkpits.ScopeOfVariable;
 
 public class StaticVariable {
 	static int staticVariable = 15;
-	static String stringName = "karan mohod";
+    static String stringName = "karan mohod";
 	public static void main(String[] args) {
 		  String name1 = "Sanket";
 		// Static variable - Class variable - reference variable
