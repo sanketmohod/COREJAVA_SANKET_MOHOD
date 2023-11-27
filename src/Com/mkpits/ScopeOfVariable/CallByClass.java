@@ -9,6 +9,8 @@ public class CallByClass {
         // we can call static variable by giving class name
         System.out.println(LocalVariable.class); // it gives the address of that class
         // we can not access local variable into the other class
+        System.out.println(StaticVariable.stringName);
+        
 	}
 
 }
