@@ -1,7 +1,4 @@
 package Com.mkpits.Datatypes;
-
-import Com.mkpits.ScopeOfVariable.StaticVariable;
-
 public class BooleanDataType {
 
 	public static void main(String[] args) {
