@@ -1,4 +1,4 @@
-package Com.mkpits.methods;
+package com.mkpits.methods;
 
 public class MethodDetails {
 

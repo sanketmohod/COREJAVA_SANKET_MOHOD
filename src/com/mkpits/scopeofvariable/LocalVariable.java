@@ -1,4 +1,4 @@
-package Com.mkpits.ScopeOfVariable;
+package com.mkpits.scopeofvariable;
 
 public class LocalVariable {
 
