@@ -50,5 +50,4 @@ public class MethodDetails {
 		getGender();
 		getPassword();
 	}
-
 }
