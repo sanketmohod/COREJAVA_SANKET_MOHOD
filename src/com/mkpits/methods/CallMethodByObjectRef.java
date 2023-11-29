@@ -9,5 +9,4 @@ public class CallMethodByObjectRef {
 		MethodDetails obj = new MethodDetails();
 		obj.getAllData();
 	}
-
 }

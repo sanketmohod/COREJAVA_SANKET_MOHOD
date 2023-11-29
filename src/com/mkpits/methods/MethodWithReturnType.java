@@ -9,12 +9,12 @@ public class MethodWithReturnType {
 		MethodWithReturnType mrt = new MethodWithReturnType();
 		//String fName = mrt.getFirstName();
 		//System.out.println(fName);
-		System.out.println(mrt.getFirstName());
-		System.out.println(mrt.getLastName());
-		System.out.println(mrt.getEmailAdd());
-		System.out.println(mrt.getMobile());
-		System.out.println(mrt.getGender());
-		System.out.println(mrt.getPassword());
+		System.out.println("My First Name is : "+mrt.getFirstName());
+		System.out.println("My Last Name is : "+mrt.getLastName());
+		System.out.println("My Email Address is ; "+mrt.getEmailAdd());
+		System.out.println("Thios is my contact number : "+mrt.getMobile());
+		System.out.println("Gender is : "+mrt.getGender());
+		System.out.println("Password is : "+mrt.getPassword());
 		System.out.println("Calling all methods by getAllData() : ");
 		mrt.getAllData();
 	}
@@ -43,12 +43,12 @@ public class MethodWithReturnType {
 		return password;
 	}
 	public void getAllData() {
-		System.out.println(getFirstName());
-		System.out.println(getLastName());
-		System.out.println(getEmailAdd());
-		System.out.println(getMobile());
-		System.out.println(getGender());
-		System.out.println(getPassword());
+		System.out.println("My First Name is : "+getFirstName());
+		System.out.println("My Last Name is : "+getLastName());
+		System.out.println("My Email Address is ; "+getEmailAdd());
+		System.out.println("Thios is my contact number : "+getMobile());
+		System.out.println("Gender is : "+getGender());
+		System.out.println("Password is : "+getPassword());
 	}
 
 }
