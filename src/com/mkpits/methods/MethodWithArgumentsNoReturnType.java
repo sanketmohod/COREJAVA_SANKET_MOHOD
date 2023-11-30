@@ -1,10 +1,6 @@
 package com.mkpits.methods;
 
 public class MethodWithArgumentsNoReturnType {
-
-	private Object getEmail;
-	public Object getGender;
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Methods with Arguments - it contains two entity - Parameters / Arguments
@@ -56,5 +52,4 @@ public class MethodWithArgumentsNoReturnType {
 		// TODO Auto-generated method stub
 		System.out.println(password);
 	}
-
-	}
+}
