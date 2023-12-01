@@ -3,7 +3,7 @@ package com.mkpits.methods;
 public class MethodDetails {
 
 	public static void main(String[] args) {
-		// method - methods are used to implement the attribute in java
+		// method - methods are nothing abuts block of attributes and we used those attributes to implement in java
 		// two types
 		// static methods - access anywhere
 		// non static method - access within the same class 

@@ -7,7 +7,7 @@ public class MethdWithReturnTypeWithArgument {
         // Implementation 
 		MethdWithReturnTypeWithArgument mwr = new MethdWithReturnTypeWithArgument();
 		//System.out.println(mwr.getDetails(2,10000));
-						//OR
+		//OR we can hold the values in other variables
 		String myDetails = mwr.getDetails(2,10000);
 		System.out.println(myDetails);
 	}

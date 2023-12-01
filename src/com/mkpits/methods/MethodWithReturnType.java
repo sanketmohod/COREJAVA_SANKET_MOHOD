@@ -9,6 +9,7 @@ public class MethodWithReturnType {
 		MethodWithReturnType mrt = new MethodWithReturnType();
 		//String fName = mrt.getFirstName();
 		//System.out.println(fName);
+		
 		System.out.println("My First Name is : "+mrt.getFirstName());
 		System.out.println("My Last Name is : "+mrt.getLastName());
 		System.out.println("My Email Address is ; "+mrt.getEmailAdd());
@@ -17,6 +18,7 @@ public class MethodWithReturnType {
 		System.out.println("Password is : "+mrt.getPassword());
 		System.out.println("Calling all methods by getAllData() : ");
 		mrt.getAllData();
+		
 	}
 	public String getFirstName() {
 		String firstName = "Karan";
