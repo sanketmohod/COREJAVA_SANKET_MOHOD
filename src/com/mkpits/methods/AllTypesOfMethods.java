@@ -14,8 +14,11 @@ public class AllTypesOfMethods {
         // calling method with arguments with return type
         String Myaddress = call.getData("karanmohod19@gmail.com", "Pass@456");
         System.out.println(Myaddress);
+        // we can directly call static method with Argument and return type
+        System.out.println(getInfo("Rohit"));
 	}
-       // method with no return type no arguments
+      
+	// method with no return type no arguments
 	private static void getMarks() {
 		float Marks_10th = 86.80f;
 		float Marks_12th = 68.62f;
@@ -40,4 +43,10 @@ public class AllTypesOfMethods {
 		String idPassword = "My email address is : " +email+ " & My password is : " +password;
 	    return idPassword;
 	}
+	// static method with argument and return type
+	 private static String getInfo(String name) {
+	    	String name1 = "My favorite Cricketer is : "+name;
+			return name1;	
+		}
+	
 }
