@@ -16,8 +16,15 @@ public class AllTypesOfMethods {
         System.out.println(Myaddress);
         // we can directly call static method with Argument and return type
         System.out.println(getInfo("Rohit"));
+       System.out.println("sum is : "+getSum(20, 10));
 	}
       
+	private static int getSum(int a,int b) {
+		int sum = a + b;
+		int sub = a - b;
+		return sum ;		
+	}
+
 	// method with no return type no arguments
 	private static void getMarks() {
 		float Marks_10th = 86.80f;
