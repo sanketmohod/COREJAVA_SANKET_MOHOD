@@ -6,7 +6,7 @@ public class ArithimaticOperators {
 		// TODO Auto-generated method stub
 		// Operator - are the symbol by which can used to perform arithmetic operations
 		// Arithmetic Operators - +, -, *, /, %
-		// calling all the entities in one method 
+		// calling all the entities in one method                     
         // we can directly access static operation
         getOperatins();
         System.out.println("\n");
@@ -33,7 +33,7 @@ public class ArithimaticOperators {
 		float div = numb1/numb2;
 		System.out.println("Devision of two number is : "+div);
 	}
-
+ 
 	private static int getMul(int numb1, int numb2) {
 		// TODO Auto-generated method stub
 		int mul = numb1 * numb2;

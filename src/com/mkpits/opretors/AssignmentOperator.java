@@ -1,10 +1,10 @@
-package com.mkpits.opretors;
+2package com.mkpits.opretors;
 
 public class AssignmentOperator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        // Assignment Operator - =, ==, +=, -+, *=, /=
+        // Assignment Operator - =, +=, -+, *=, /=, %=
 		getAssignment();
 	}
 
