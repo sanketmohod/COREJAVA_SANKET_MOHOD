@@ -3,6 +3,7 @@ package com.mkpits.typecasting;
 public class ImplicitTypeCasting {
           // Type Casting - conversion of values into one to another type(data types)
 	      // Types - Implicit/Explicit
+	      // Implicit - winding
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
           byte num1 = 10;

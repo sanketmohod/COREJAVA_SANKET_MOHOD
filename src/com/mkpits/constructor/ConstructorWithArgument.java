@@ -11,17 +11,16 @@ public class ConstructorWithArgument {
 		crg1.getData();
 		ConstructorWithArgument crg2 = new ConstructorWithArgument(crg1);
 		crg2.getData();
-	}
-	
-	public void getData() {
-		System.out.println("My rollNumb is : " +rollNumb+ "My name is : "+name);
-	}
+	} 
 	public ConstructorWithArgument() {
-		System.out.println("This is my no argument constructor.");
-		int rollNumb = 54;
-		String name = "Karan";
+		System.out.println("This is my no argument constructor.");	
+		 rollNumb = 54;
+		 name = "Karan";
 	}
-	
+	public void getData() {
+		
+		System.out.println("My rollNumb is : " +rollNumb+ "\nMy name is : "+name);	
+	}
 	// Parameterize Constructor
 	public ConstructorWithArgument(int rollNumb1, String name1) {
 		rollNumb = rollNumb1;
