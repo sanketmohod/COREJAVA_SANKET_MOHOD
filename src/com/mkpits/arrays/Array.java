@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class Array {
     //Array - is an collection of similar data items.
 	// array is start with the index value of '0' - bcoz of addressing
+	// Arrays are used to store multiple values in a single variable.
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
         // Declaration of array
@@ -34,4 +35,5 @@ public class Array {
 		
 	}
 
-	}}
+	} 
+	}
