@@ -45,7 +45,6 @@ public class StringMthodConstructor {
         System.out.println(fullName.endsWith("D"));// it returns boolean value
         System.out.println(fullName.startsWith("S"));
         System.out.println(fName.equals(fName1));//it return boolean value if both the string are same then it will be true otherwise false
-        System.out.println(lName.);
 	}
 
 	
